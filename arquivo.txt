@@ -4,3 +4,14 @@ ssh-keygen -t rsa -C "lealdasilva2022@hotmail.com"
 eval "$(ssh-agente -s)"
 ssh-add /c/Users/Matheus/.ssh/id_rsa
 
+# iniciando o git
+git init
+git config --global user.name "Leall675"
+git config --global user.email "lealdasilva2022@hotmail.com"
+git remote add origin https://github.com/Leall675/temp-repo.git
+git add .
+git commit -m 'Initial'
+git post origin master
+
+
+
