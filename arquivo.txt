@@ -1,0 +1,6 @@
+Um texto qualquer nesse arquivo
+
+ssh-keygen -t rsa -C "lealdasilva2022@hotmail.com"
+eval "$(ssh-agente -s)"
+ssh-add /c/Users/Matheus/.ssh/id_rsa
+
