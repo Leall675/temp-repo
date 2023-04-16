@@ -1,14 +1,25 @@
 Um texto qualquer nesse arquivo
 
-ssh-keygen -t rsa -C "lealdasilva2022@hotmail.com"
+# Quando fechar o terminal executar git abaixo
 eval "$(ssh-agente -s)"
 ssh-add /c/Users/Matheus/.ssh/id_rsa
 
-# iniciando o git
+
+# Iniciando o git
 git init
 git config --global user.name "Leall675"
 git config --global user.email "lealdasilva2022@hotmail.com"
-git remote add origin https://github.com/Leall675/temp-repo.git
+git remote add origin https://github.com/Leall675/temp-repo.git - URL COPIADA DO GIT
+
+
+# Editei
 git add .
 git commit -m 'Initial'
 git post origin master
+
+
+# CHAVES SSH
+ssh-keygen -t rsa -C "lealdasilva2022@hotmail.com"
+cat ~/.ssh/id_rsa.pub
+
+
